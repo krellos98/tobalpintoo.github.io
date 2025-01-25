@@ -1,0 +1,15 @@
+* {
+    font-family: arial;
+}
+
+
+.header-background{
+    background-image: url(../img/ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30em;
+}
+
+.text-header {
+    padding-top: 3em;
+}
