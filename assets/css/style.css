@@ -1,15 +1,26 @@
 * {
     font-family: arial;
+    margin: 0px;
 }
 
-
 .header-background{
-    background-image: url(../img/ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
+    background-image: url(../img/header-fondo.jpg);
     background-size: cover;
     background-position: center;
-    height: 30em;
+    height: 25em;
 }
 
 .text-header {
     padding-top: 3em;
+}
+
+.sobre-mi{
+    height: 43em ;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    
 }
