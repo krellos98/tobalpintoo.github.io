@@ -50,3 +50,14 @@ body {
     margin-right: 9px;
 }
 
+.proyectos {
+    margin: auto;
+    padding: 50px 20px;
+}
+
+.fa-folder-open {
+    margin-right: 10px;
+}
+.fa-briefcase {
+    margin-right: 10px;
+}
