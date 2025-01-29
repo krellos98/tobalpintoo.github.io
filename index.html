@@ -30,6 +30,12 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#experiencia">Experiencia</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#proyectos">Proyectos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./portafolio.html">Portafolio</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -39,7 +45,9 @@
               <span class="border-bottom border-border-light-subtle p-2">Fullstack Developer</span>
             </p>
             <div class="d-flex justify-content-center pt-3 btn-lg">
-              <button type="button" class="btn btn-secondary">Contáctame <i class="fa-solid fa-arrow-right"></i></button>
+              <a href="mailto:cleivapinto1@gmail.com" class="btn btn-secondary">
+                Contáctame<i class="fa-solid fa-arrow-right"></i>
+              </a>
             </div>
         </section>
     </header>
@@ -95,8 +103,8 @@
         </div>
       </section>
       <!--Desde aqui comienza la seccion de experiencia-->
-      <section class="proyectos bg-dark">
-        <h2 class="fw-bold fs-2 text-center" id="experiencia"><i class="fa-solid fa-folder-open"></i>Experiencia</h2>
+      <section class="proyectos bg-dark" id="experiencia">
+        <h2 class="fw-bold fs-2 text-center"><i class="fa-solid fa-folder-open"></i>Experiencia</h2>
         <ul class="pt-5 d-flex justify-content-center container">
           <li><strong>Programador Autónomo</strong> (Enero 2024 - Actualidad)
           <p class="pt-2 fst-italic">Me he enfocado en mejorar mi lógica de programación con Python construyendo soluciones a problemáticas del día a día. También he aventurado en el desarrollo web, dominando principalmente el uso de CSS, HTML y Bootstrap.</p>
@@ -104,7 +112,7 @@
       </section>
 
       <!--Desde aqui comienza la seccion de Proyectos-->
-      <section class="container">
+      <section class="container" id="proyectos">
         <h2 class="fw-bold fs-2 text-center pb-4"><i class="fa-solid fa-briefcase"></i>Proyectos</h2>
 
         <div id="carouselExampleDark" class="carousel carousel-dark slide">
@@ -134,13 +142,23 @@
           </button>
         </div>
 
+        <div class="d-flex justify-content-center pt-3 btn-lg">
+          <a href="./portafolio.html" class="btn btn-secondary">
+            Visitar Portafolio <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
       </section>
-
-
     </main>
 
-    <footer>
-        &copy; tobalpintoo 2025
+    <footer class="bg-dark text-center p-3">
+        &copy; 2025 tobalpintoo 
+        <div class="social-icons">
+          <a target="_blank" href="https://www.instagram.com/99cristovvl/"><i class="fab fa-instagram"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/in/cristobal-leiva-pinto-1750a32b3/"><i class="fab fa-linkedin"></i></a>
+          <a target="_blank" href="https://github.com/tobalpintoo"><i class="fab fa-github"></i></a>
+          <a target="_blank" href="mailto:cleivapinto1@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
